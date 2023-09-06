@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: 0 1rem;
+}
+.search-input {
+    background: transparent;
+    border: none;
+    width: 600px;
+    height: 46px;
+    font-size: 18px;
+    box-sizing: border-box;
+    font: normal 16px Google Sans,Roboto,Helvetica,Arial,sans-serif;
+    background: transparent; 
+}
+.logo-area {
+    display: flex;
+    align-items: center;
+}
+.search-area {
+    display: flex;
+    align-items: center;
+    background-color: rgb(227, 224, 224);
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.settings-area {
+
+}
+.profile-area {
+    display: flex;
+    justify-content: space-between;
+}
+.tooltip {
+    display: inline-block;
+    position: relative;
+}
